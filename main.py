@@ -7,7 +7,7 @@ from datetime import date
 ADMIN_PASSWORD = "admin123"
 
 # ---------------- DATABASE ----------------
-conn = sqlite3.connect('chemdept.db', check_same_thread=False)
+conn = sqlite3.connect('chedept.db', check_same_thread=False)
 cursor = conn.cursor()
 
 # Inventory table
